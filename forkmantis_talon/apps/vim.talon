@@ -8,6 +8,11 @@ vim save quit:
     insert(":wq")
     key(enter)
 
+vim quit:
+    key(esc)
+    insert(":q")
+    key(enter)
+
 vim force quit:
     key(esc)
     insert(":q!")
