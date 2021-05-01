@@ -1,10 +1,8 @@
 to do do <number>:
     insert("t do {number}; tls")
 
-to do add:
-    insert("t  add \"() \"")
-    key(left)
-    key(left)
+to do add <word>:
+    insert("t  add \"({word}) \"")
     key(left)
 
 to do remove <number>:
@@ -14,8 +12,8 @@ to do list:
     insert("tls")
     key(enter)
 
-to do work:
-    insert("tls @work")
+to do {user.contexts}:
+    insert("tls @{user.contexts}")
     key(enter)
 
 to do archive:
