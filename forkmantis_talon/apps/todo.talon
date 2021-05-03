@@ -17,7 +17,7 @@ to do {user.contexts}:
     key(enter)
 
 to do archive:
-    insert("t archive")
+    insert("t archive; tls")
     key(enter)
 
 to do report:
