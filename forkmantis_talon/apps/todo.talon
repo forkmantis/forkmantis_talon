@@ -5,6 +5,8 @@ to do add <word>:
     insert("t  add \"({word}) \"")
     key(left)
 
+to do priority <number> <user.letter>: "t pri {number} {letter}"
+
 to do remove <number>:
     insert("t rm {number}; tls")
 
