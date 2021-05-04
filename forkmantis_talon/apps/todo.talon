@@ -10,9 +10,7 @@ to do priority <number> <user.letter>: "t pri {number} {letter}"
 to do remove <number>:
     insert("t rm {number}; tls")
 
-to do list:
-    insert("tls")
-    key(enter)
+to do list [<user.text>]: "tls {text or ''}\n"
 
 to do {user.contexts}:
     insert("tls @{user.contexts}")
