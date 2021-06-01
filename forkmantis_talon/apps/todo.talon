@@ -1,8 +1,8 @@
 to do do <number>:
     insert("t do {number}; tls")
 
-to do add <word>:
-    insert("t  add \"({word}) \"")
+to do add <user.letter>:
+    insert("t  add \"({letter}) \"")
     key(left)
 
 to do priority <number> <user.letter>: "t pri {number} {letter}"
