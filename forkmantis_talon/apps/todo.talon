@@ -13,6 +13,10 @@ to do remove <number>:
 to do append <number>:
     insert("t append {number} ")
 
+to do increment <number>:
+    insert("t append {number} .; tls")
+    key(enter)
+
 to do list [<user.text>]: "tls {text or ''}\n"
 
 to do {user.contexts}:
