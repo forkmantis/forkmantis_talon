@@ -1,3 +1,5 @@
+app: vim
+
 vim save:
     key(esc)
     insert(":w")
